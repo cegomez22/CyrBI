@@ -1,0 +1,2 @@
+# CyrBI
+Report queries
