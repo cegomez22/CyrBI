@@ -1,0 +1,11 @@
+SELECT DISTINCT AccountNo
+   ,Description
+   ,SUM( minutes )  as minutes
+   ,COUNT( CallId ) as calls
+   ,SUM( charge )   as charges
+   ,SUM( Discount ) as discounts
+FROM AccountCall
+WHERE callstart = 
+GROUP BY
+   
+   
